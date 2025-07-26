@@ -1,10 +1,12 @@
 package com.gqt.corejava.patterns;
+
 import java.util.Scanner;
-public class patternprogram11 {
+
+public class Challenge5 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the size:");
+		System.out.print("enter the size:");
 		int n=sc.nextInt();
 		for(int i=1;i<=n;i++)
 		{
@@ -12,18 +14,15 @@ public class patternprogram11 {
 			{
 				System.out.print("  ");
 			}
-			for(int k=1;k<=2*i-1;k++)
+			for(int k=1;k<=2*i-1;k++);
 			{
-				System.out.print("* ");
+				System.out.print(i+" ");
 			}
 			System.out.println();
 		}
-		
-	
-				
 		// TODO Auto-generated method stub
 
 	}
 
 }
-
+		

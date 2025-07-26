@@ -1,6 +1,8 @@
 package com.gqt.corejava.patterns;
+
 import java.util.Scanner;
-public class patternprogram10 {
+
+public class Challenge10 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -36,3 +38,4 @@ public class patternprogram10 {
 	}
 
 }
+		
